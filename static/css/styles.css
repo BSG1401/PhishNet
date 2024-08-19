@@ -1,0 +1,88 @@
+/* General Body Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/background.jpg'); /* Path to your background image */
+    background-size: cover; /* Make sure the background covers the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image in place */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark blue background */
+}
+
+.navbar-brand {
+    color: #ffffff !important; /* White text for the brand */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* White text for the links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc !important; /* Light gray text on hover */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the toggler icon */
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1; /* Takes up available space */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Replace with your footer background color */
+    color: #ffffff; /* Replace with your footer text color */
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.social-icons a:hover {
+    color: #cccccc; /* Hover color for social icons */
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Page Specific Styles */
+.home-carousel {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn-custom {
+    background-color: #bb222d;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #bb222d;
+    color: #ffffff;
+}

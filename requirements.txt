@@ -1,0 +1,13 @@
+Flask
+Flask-Login
+Flask-SQLAlchemy
+Flask-WTF
+WTForms
+gunicorn
+pandas
+scikit-learn
+joblib
+numpy
+SQLAlchemy
+MySQL-connector-python
+git-lfs
