@@ -30,3 +30,5 @@ PhishNet is a sophisticated phishing detection platform that leverages machine l
 ```bash
 git clone https://github.com/yourusername/phishnet.git
 cd phishnet
+
+### 2. **Run the train_model.py to get the phishing_model.pkl file # PhishNet**.
