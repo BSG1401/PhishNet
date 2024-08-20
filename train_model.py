@@ -4,8 +4,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 
+dataset_path = os.path.join('static', 'URL dataset.csv')
+
 # Load the dataset
-dataset = pd.read_csv('URL dataset.csv')
+dataset = pd.read_csv(dataset_path)
 
 # Update the label column to numerical format
 # Make absolutely sure that 'phishing' is the correct label and the case is right
