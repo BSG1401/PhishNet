@@ -24,6 +24,8 @@ PhishNet is a sophisticated phishing detection platform that leverages machine l
 ### 5. **Help Page**
 - **Information**: Offers guidance on how to use PhishNet effectively, including a section for frequently asked questions.
 
+### 6. **Run the train_model.py to get the phishing_model.pkl file # PhishNet**.
+
 ## Installation
 
 ### 1. **Clone the Repository**
